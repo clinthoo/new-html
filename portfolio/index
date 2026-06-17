@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clint John | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#home" class="logo">Clint John</a>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="hero-copy">
+                <p>Hi, I’m</p>
+                <h1>Clint John.</h1>
+                <p>I build practical engineering and technical portfolio solutions with clean design, real project clarity, and strong communication. Explore my work, skills, and experience below.</p>
+                <a href="#contact" class="button-primary">Contact Me</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://clipart-library.com/cliparts/4T5zXxAbc.png" alt="Portfolio illustration">
+            </div>
+        </section>
+
+        <section id="services" class="card-grid">
+            <div class="card">
+                <h3>Engineering Design</h3>
+                <p>Creating efficient mechanical, electrical, and civil drawings for real-world systems and product builds.</p>
+            </div>
+            <div class="card">
+                <h3>Project Planning</h3>
+                <p>Delivering organized proposals, timelines, and technical documentation for high-impact client work.</p>
+            </div>
+            <div class="card">
+                <h3>Technical Support</h3>
+                <p>Offering engineering consultation, troubleshooting, and communication to help teams move faster.</p>
+            </div>
+            <div class="card">
+                <h3>Portfolio Development</h3>
+                <p>Crafting professional project showcases, resumes, and websites that highlight strengths clearly.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <div class="section-title">
+                <h2>Skills</h2>
+            </div>
+            <ul class="skills-list">
+                <li>Mechanical and electrical design</li>
+                <li>Technical documentation</li>
+                <li>CAD and blueprint review</li>
+                <li>Project coordination</li>
+                <li>Client-ready presentations</li>
+            </ul>
+        </section>
+
+        <section id="education" class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+            </div>
+            <ul class="education-list">
+                <li class="card">
+                    <h3>Engineering Certification</h3>
+                    <p>Completed professional training and certifications in electrical and mechanical systems design.</p>
+                </li>
+                <li class="card">
+                    <h3>Technical Portfolio Development</h3>
+                    <p>Built multiple design and documentation portfolios for engineering projects and client proposals.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience" class="container">
+            <div class="section-title">
+                <h2>Experience</h2>
+            </div>
+            <ul class="experience-list">
+                <li class="card">
+                    <h3>Project Engineer</h3>
+                    <p>Designed and reviewed system layouts, managed documentation, and coordinated with stakeholders.</p>
+                </li>
+                <li class="card">
+                    <h3>Portfolio Consultant</h3>
+                    <p>Helped create project portfolios, case studies, and visual presentations for technical clients.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+            <ul class="contact-list">
+                <li>Email: <a href="mailto:clintjohn@example.com">clintjohn@example.com</a></li>
+                <li>Location: Your City, Your Country</li>
+                <li>Availability: Open for new portfolio and engineering work</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2026 Clint John. Built with a modern portfolio design.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
