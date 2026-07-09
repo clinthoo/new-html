@@ -42,6 +42,8 @@ navLinks.forEach(link => {
     });
 });
 
+// PDF export removed — button and library were deleted per user request
+
 contactIcons.forEach(icon => {
     icon.addEventListener('click', event => {
         const rect = icon.getBoundingClientRect();
